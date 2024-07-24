@@ -2783,6 +2783,22 @@
   display: flex;
 }
 
+@media screen and (min-width: 1280px) {
+  .nav-menu-2 {
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-bar-wrapper-1 {
+    grid-column-gap: 12%;
+    grid-row-gap: 12%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .nav-menu-wrapper {
     background-color: rgba(0, 0, 0, 0);
@@ -5674,7 +5690,7 @@
   justify-self: center;
 }
 
-#w-node-b2d39f7b-e7fa-06be-0f28-eb182218ac9e-76d61834, #w-node-b2d39f7b-e7fa-06be-0f28-eb182218aca3-76d61834, #w-node-b2d39f7b-e7fa-06be-0f28-eb182218aca8-76d61834 {
+#w-node-b2d39f7b-e7fa-06be-0f28-eb182218ac9e-76d61834, #w-node-b2d39f7b-e7fa-06be-0f28-eb182218aca3-76d61834, #w-node-_0162b3f8-19a9-9856-97f0-69243c259be7-76d61834 {
   align-self: start;
   justify-self: center;
 }
