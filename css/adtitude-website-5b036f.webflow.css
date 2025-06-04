@@ -5744,5 +5744,8 @@
     justify-self: start;
   }
 }
-
-
+@media (max-width: 600px) {
+  .calendly-inline-widget {
+    height: 400px !important; 
+  }
+}
