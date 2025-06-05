@@ -5749,3 +5749,6 @@
     height: 400px !important; 
   }
 }
+.rolling-image {
+  border-radius: 28px;
+}
