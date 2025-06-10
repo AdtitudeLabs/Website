@@ -557,17 +557,21 @@
             <h6 class="video-production-section8-main-description">We will start planning your growth straight away.</h6>
           </div>
         </div>
-        <section id="calendly" class="home-calendar-section"></section>
-        <div data-w-id="19732ef8-b094-ca98-57d0-533e4e201cbf" style="opacity:0" class="video-production-section9-calendar-wrap">
-          <div class="calendly-wrap">
-            <div class="w-embed w-script"><!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/sudarshan-adtitude" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
-            </div>
-          </div>
-        </div>
-        </section>
+<!-- Cal inline embed code begins -->
+<div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline"></div>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+Cal("init", "30min", {origin:"https://cal.com"});
+
+Cal.ns["30min"]("inline", {
+elementOrSelector:"#my-cal-inline",
+config: {"layout":"month_view"},
+calLink: "sudarshan-sivakumar/30min",
+});
+
+Cal.ns["30min"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+</script>
+<!-- Cal inline embed code ends -->
         <div class="video-production-section9-description-wrap">
           <div data-w-id="d1741366-60e5-3113-5a2b-9b8b565b7001" style="opacity:0" class="video-production-section9-description-div">
             <h6 class="video-production-section9-description">Your path to internet fame starts with one click! <br>Take your business to the next level today!</h6>
