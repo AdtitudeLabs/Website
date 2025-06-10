@@ -117,7 +117,7 @@
                   <a href="team.html" class="nav-menu-item w-nav-link">Team</a>
                   <div class="cart-box-home menu-wrap">
                     <a
-                      href="#calendly"
+                      href="#my-cal-inline"
                       data-w-id="5f9685c3-76eb-dff7-5ecf-df1f6b15e083"
                       class="button-wrapper-home menu w-inline-block"
                     >
@@ -133,7 +133,7 @@
               </div>
               <div class="cart-box-home">
                 <a
-                  href="#calendly"
+                  href="#my-cal-inline"
                   data-w-id="65615162-5db7-1d7c-0134-383ba1eb4c5f"
                   class="button-wrapper-home w-inline-block"
                 >
@@ -182,7 +182,7 @@
                 <div class="w-icon-nav-menu"></div>
               </div>
               <a
-                href="#"
+                href="#my-cal-inline"
                 data-w-id="d7db85ec-4d50-583d-408b-f114c80be3cb"
                 class="button-wrapper w-inline-block"
               >
@@ -225,7 +225,7 @@
                   border-color: rgb(255, 255, 255);
                   color: rgb(255, 255, 255);
                 "
-                href="#calendly"
+                href="#my-cal-inline"
                 class="get-in-touch-button w-button"
                 ><strong>Get in Touch</strong></a
               >
@@ -959,6 +959,8 @@
       </div>
     </div>
 <!-- Cal inline embed code begins -->
+<section id="cal-inline-embed" class="cal-inline" style="margin-top: 2rem;">
+
 <div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline"></div>
 <script type="text/javascript">
 (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
@@ -972,6 +974,7 @@ calLink: "sudarshan-sivakumar/30min",
 
 Cal.ns["30min"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
 </script>
+ </section>
 <!-- Cal inline embed code ends -->
     <section class="footer">
       <div
@@ -995,6 +998,7 @@ Cal.ns["30min"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
                 class="footer-logo"
             /></a>
           </div>
+          
           <div class="footer-pages-wrap">
             <div class="footer-pages-content-wrap">
               <div class="footer-page-name-wrap">
